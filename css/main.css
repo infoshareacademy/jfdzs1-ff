@@ -57,3 +57,47 @@ table {
 -----------===  END OF CSS-RESET  ===-----------------
 */
 
+/*
+
+CSS-NAVIGATION
+
+*/
+html, body {
+	height: 100%;
+}
+header {
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+
+ul {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	display: inline-block;
+	border: 1px black solid;
+	border-radius: 3px;
+	padding: 10px 25px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+/*
+-----------===  END OF CSS-NAVIGATION  ===-----------------
+*/
+
+
+
