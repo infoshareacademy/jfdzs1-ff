@@ -57,3 +57,49 @@ table {
 -----------===  END OF CSS-RESET  ===-----------------
 */
 
+
+/*
+TEAM INFO CSS
+ */
+
+.team_info {
+	background: #dedede;
+	max-width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	height: 600px;
+}
+
+.team_member_card {
+	background-color: #333c50;
+	width: 300px;
+	height: 450px;
+	margin: 30px auto 0 auto;
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+}
+
+.team_member_image {
+	background: #de3687;
+	margin: 0;
+	min-width: 100%;
+	border-radius: 10px;
+
+}
+
+.team_member_info {
+	background: #000;
+	position: absolute;
+	height: 80px;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.5;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/*
+---------------=== END OF TEAM INFO CSS ===---------------
+ */
