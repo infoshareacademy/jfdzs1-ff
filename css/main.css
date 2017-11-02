@@ -58,82 +58,10 @@ table {
 */
 
 html, body {
-	margin: 0;
 	height: 100%;
 }
 
-/* SLIDER */
-
-.slider {
-	display: flex;
-	text-align: center;
-	color: #f8f8f8;
-	background: url(../images/slider.jpg) no-repeat center center;
-	background-size: auto 100%;
-	justify-content:center;
-	align-items:center;
-	max-width: 100%;
-	max-height: 100%;
-}
-
-	.slider_container {
-		max-width: 1200px;
-		justify-content:center;
-		align-items:center;
-		text-align: center;
-	}
-
-	.slider_text {
-		position: relative;
-		margin-top: 25%;
-		margin-bottom: 15%;
-		font-family: 'Roboto Condensed', sans-serif;
-		background: rgba(216,238,255,0.2);
-		border-radius: 20px;
-		border-color: rgba(216,238,255.0.2);
-		border-style: solid;
-	}
-
-	.slider_text h1 {
-		font-size: 4em;
-		margin-bottom: 15px;
-	}
-
-	.slider_text p {
-		margin-bottom: 15px;
-		font-size: 1.4rem;
-	}
-
-	.slider_button {
-
-		background: rgba(48,51,60,0.9);
-		padding: 15px 10px 15px 10px;
-		width: 30%;
-		margin: 0 auto;
-		border-radius: 10px;
-		border-color: rgba(48,51,60,0.9);
-		border-style: solid;
-	}
-
-	.slider_button a {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 2.5em;
-		color: rgba(255,255,255,1);
-		text-decoration: none;
-	}
-
-	.slider_button a:hover {
-		text-decoration: none;
-		font-weight: 700;
-	}
-
-/* END OF SLIDER */
-
-/*
-
-CSS-NAVIGATION
-
-*/
+/* CSS-NAVIGATION */
 
 header {
     width: 100%;
@@ -171,10 +99,72 @@ a {
     color: inherit;
 }
 
+/* END OF CSS-NAVIGATION */
 
+/* SLIDER */
 
-/*
------------===  END OF CSS-NAVIGATION  ===-----------------
-*/
+.slider {
+    display: flex;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/slider.jpg) no-repeat center center;
+    background-size: auto 100%;
+    justify-content:center;
+    align-items:center;
+    max-width: 100%;
+    max-height: 100%;
+}
 
+.slider_container {
+    max-width: 1200px;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+
+.slider_text {
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgba(216,238,255,0.2);
+    border-radius: 20px;
+    border-color: rgba(216,238,255.0.2);
+    border-style: solid;
+}
+
+.slider_text h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+
+.slider_text p {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.slider_button {
+
+    background: rgba(48,51,60,0.9);
+    padding: 15px 10px 15px 10px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: rgba(48,51,60,0.9);
+    border-style: solid;
+}
+
+.slider_button a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.slider_button a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* END OF SLIDER */
 
