@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>FF MotoGol</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -33,16 +34,19 @@
 <div class="main_div">
 
     <!-- SLIDER -->
-    <div class="container-fluid slider">
-        <div class="slider_container">
-            <div class="slider_text">
-                <h1>Lorem ipsum dolor sit amet.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eveniet fuga nisi nobis praesentium
-                    quasi qui rem voluptates? Culpa incidunt, libero molestiae obcaecati optio tempore.</p>
-                <div class="slider_button">
+
+    <div id="slider" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/slider.jpg" alt="Główne zdjęcie">
+                <div class="carousel-caption">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eveniet fuga nisi nobis praesentium quasi qui rem voluptates? Culpa incidunt, libero molestiae obcaecati optio tempore.</p>
                     <a href="#">Zapisz się!</a>
                 </div>
             </div>
+            ...
         </div>
     </div>
 
@@ -71,8 +75,8 @@
 </footer>
 
 <!-- SKRYPTY -->
-<script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
