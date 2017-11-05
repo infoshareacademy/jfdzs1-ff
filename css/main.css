@@ -59,6 +59,7 @@ table {
 
 html, body {
 	height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* CSS-NAVIGATION */
@@ -104,7 +105,7 @@ a {
 /* SLIDER */
 
 .slider {
-    display: flex;
+   /* display: flex;*/
     text-align: center;
     color: #f8f8f8;
     background: url(../images/slider.jpg) no-repeat center center;
