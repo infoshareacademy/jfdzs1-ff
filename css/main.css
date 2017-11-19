@@ -67,6 +67,8 @@ html, body {
 
 /* CSS-NAVIGATION */
 
+/* CSS-NAVIGATION */
+
 header {
     width: 100%;
     display: flex;
@@ -102,6 +104,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* END OF CSS-NAVIGATION */
+
 
 /* END OF CSS-NAVIGATION */
 
