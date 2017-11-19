@@ -143,3 +143,24 @@ a {
 
 /* END OF SLIDER */
 
+/*******************************************/
+/*              SIGN IN FORM               */
+/*******************************************/
+.sign_in_form {
+    margin-top: 15px;
+    text-align: center;
+    background: #2d4866;
+    height: 120px;
+    width:100%;
+
+}
+.form-control {
+    width: 50%;
+    border-radius: 5px;
+    font-style: italic;
+    margin:0 auto;
+
+}
+.form-group p {
+    color: white;
+}
