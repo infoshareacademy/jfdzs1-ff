@@ -18,39 +18,39 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*
@@ -58,7 +58,7 @@ table {
 */
 
 html, body {
-	height: 100%;
+    height: 100%;
     font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -143,3 +143,24 @@ a {
 
 /* END OF SLIDER */
 
+/*******************************************/
+/*              SIGN IN FORM               */
+/*******************************************/
+.sign_in_form {
+    margin-top: 15px;
+    text-align: center;
+    background: #2d4866;
+    height: 120px;
+    width:100%;
+
+}
+.form-control {
+    width: 50%;
+    border-radius: 5px;
+    font-style: italic;
+    margin:0 auto;
+
+}
+.form-group p {
+    color: white;
+}
