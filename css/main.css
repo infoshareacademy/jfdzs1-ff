@@ -67,50 +67,31 @@ html, body {
 
 /* CSS-NAVIGATION */
 
-/* CSS-NAVIGATION */
-
-header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
+.navbar {
+    padding-right: 15px;
 }
-
-nav {
-    margin-right: 100px;
+.navbar-brand {
+    height: auto;
 }
-
-#logo {
-    margin-left: 100px;
+.logo {
+    height: 90px;
+    padding-left: 30px;
 }
-
-ul {
-    width: 540px;
-    display: flex;
-    justify-content: space-between;
+.navbar-toggle {
+    margin-top: 35px;
+    margin-right: 10px;
 }
+.navbar-nav {
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-right: 10px;
+ }
 
-li {
-    display: inline-block;
-    border: 1px black solid;
-    border-radius: 5px;
-    padding: 14px 0;
-    width: 128px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* END OF CSS-NAVIGATION */
-
-
-/* END OF CSS-NAVIGATION */
+ END OF CSS-NAVIGATION
 
 /* SLIDER */
+
 
 .carousel-caption {
     color: #f8f8f8;
@@ -146,6 +127,9 @@ a {
 .carousel-caption a:hover {
     text-decoration: none;
     font-weight: 700;
+}
+.carousel {
+    margin-top: 120px;
 }
 
 /* END OF SLIDER */
@@ -196,3 +180,4 @@ a {
 .form-group p {
     color: white;
 }
+
