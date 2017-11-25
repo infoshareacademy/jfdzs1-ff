@@ -166,7 +166,7 @@ html, body {
     margin-top: 15px;
     text-align: center;
     background: #2d4866;
-    height: 120px;
+    height: 100%;
     width:100%;
 
 }
@@ -181,3 +181,6 @@ html, body {
     color: white;
 }
 
+.sign_in_form h1 {
+    color: white;
+}
