@@ -88,7 +88,7 @@ html, body {
     padding-right: 10px;
  }
 
- END OF CSS-NAVIGATION
+/* END OF CSS-NAVIGATION */
 
 /* SLIDER */
 
@@ -99,20 +99,21 @@ html, body {
     border-radius: 20px;
     border-color: rgba(0, 0, 0, 0.4);
     border-style: solid;
+    padding-bottom: 60px;
 }
 
 .carousel-caption h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
 }
 
 .carousel-caption p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
 .carousel-caption a {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: rgba(255,255,255,1);
     text-decoration: none;
     background: rgba(48,51,60,0.9);
@@ -200,4 +201,22 @@ html, body {
 
 .sign_in_form h1 {
     color: white;
+}
+
+/* FOR MOBILE */
+
+
+@media (max-width: 800px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption a {
+        font-size: 1.7rem;
+        padding: 10px 15px 10px 5px;
+    }
 }
