@@ -18,88 +18,293 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/*margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline;*/
+    border: 0;
+    padding: 0;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*
 -----------===  END OF CSS-RESET  ===-----------------
 */
 
-
-/*
-TEAM INFO CSS
- */
-
-.team_info {
-	background: #dedede;
-	max-width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	height: 600px;
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.team_member_card {
-	background-color: #333c50;
-	width: 300px;
-	height: 450px;
-	margin: 30px auto 0 auto;
-	border-radius: 10px;
-	display: flex;
-	position: relative;
+/* CSS-NAVIGATION */
+
+.navbar {
+    padding-right: 15px;
+}
+.navbar-brand {
+    height: auto;
+}
+.logo {
+    height: 90px;
+    padding-left: 30px;
+}
+.navbar-toggle {
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.navbar-nav {
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-right: 10px;
+ }
+
+/* END OF CSS-NAVIGATION */
+
+/* SLIDER */
+
+
+.carousel-caption {
+    color: #f8f8f8;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    padding-bottom: 60px;
 }
 
-.team_member_image {
-	background: #de3687;
-	margin: 0;
-	min-width: 100%;
-	border-radius: 10px;
-
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
-.team_member_info {
-	background: #000;
-	position: absolute;
-	height: 80px;
-	bottom: 0;
-	width: 100%;
-	opacity: 0.5;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
-/*
----------------=== END OF TEAM INFO CSS ===---------------
- */
+.carousel-caption a {
+    font-size: 2.2rem;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background: rgba(48,51,60,0.9);
+    padding: 15px 10px 15px 10px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: rgba(48,51,60,0.9);
+    border-style: solid;
+}
+
+.carousel-caption a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+.carousel {
+    margin-top: 120px;
+}
+
+/* END OF SLIDER */
+
+/* ABOUT */
+
+#about_us {
+    background-color: #7a93bb;
+  }
+
+.about_us-text {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about_us-text h3 {
+  text-align: center;
+}
+
+.about_us-text h3 strong {
+    color: white;
+}
+
+.team {
+  margin-bottom: 30px;
+  text-align: -webkit-center;
+}
+
+.team-main {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    min-height: 250px;
+    max-width: 400px;
+}
+
+.team-member {
+    min-height: 289px;
+    min-width: 260px;
+    max-width: 260px;
+    background: white;
+    border-radius: 20px;
+}
+
+.team-member-image {
+    margin: 0px;
+    height: 237px;
+}
+
+.team-member-image.first {
+    opacity: 0.8;
+}
+
+.team-member-image img {
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.team-member-info {
+    background: rgba(0,0,0,0.4);
+    position: relative;
+    height: 50px;
+    width: 100%;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.team-member-info h3 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* END OF ABOUT */
+
+/* PRODUCT */
+
+#product {
+    background-color: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.product-feature {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product-feature p {
+    line-height: 20px;
+}
+
+.product-feature span {
+    font-size: 70px;
+}
+
+/* END OF PRODUCT */
+
+/* FEATURES */
+
+#features {
+    margin-top: 30px;
+}
+
+.media {
+    margin-bottom: 30px;
+}
+
+.media span {
+    font-size: 50px;
+}
+
+/* END OF FEATURES  */
+
+
+/*******************************************/
+/*              SIGN IN FORM               */
+/*******************************************/
+.sign_in_form {
+    margin-top: 15px;
+    text-align: center;
+    background: #2d4866;
+    height: 100%;
+    width:100%;
+
+}
+.form-control {
+    width: 50%;
+    border-radius: 5px;
+    font-style: italic;
+    margin:0 auto;
+
+}
+.form-group p {
+    color: white;
+}
+
+.sign_in_form h1 {
+    color: white;
+}
+
+/* FOR MOBILE */
+
+
+@media (max-width: 800px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption a {
+        font-size: 1.7rem;
+        padding: 10px 15px 10px 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .team {
+        width: 750px;
+    }
+  }
