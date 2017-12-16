@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-default">
 <header>
 
     <!-- NAVIGACJA -->
@@ -283,6 +283,6 @@
 <!-- SKRYPTY -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script>$('body').scrollspy({ target: '.navbar-default' })</script>
 </body>
 </html>
