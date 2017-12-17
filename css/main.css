@@ -66,6 +66,10 @@ html, body {
     position: relative; /*required by scrollspy */
 }
 
+#home {
+    padding-bottom: 120px;
+}
+
 /* CSS-NAVIGATION */
 
 .navbar {
@@ -130,9 +134,6 @@ html, body {
     text-decoration: none;
     font-weight: 700;
 }
-.carousel {
-    margin-top: 120px;
-}
 
 /* END OF SLIDER */
 
@@ -140,6 +141,8 @@ html, body {
 
 #about_us {
     background-color: #7a93bb;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
 .about_us-text {
@@ -229,8 +232,8 @@ html, body {
 }
 
 .product-feature {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .product-feature p {
@@ -246,11 +249,12 @@ html, body {
 /* FEATURES */
 
 #features {
-    margin-top: 30px;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 .media {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .media span {
@@ -269,6 +273,8 @@ html, body {
     background: #2d4866;
     height: 100%;
     width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 .form-control {
