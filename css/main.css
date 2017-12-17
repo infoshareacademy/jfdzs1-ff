@@ -271,10 +271,10 @@ html, body {
 
 }
 .form-control {
-    width: 50%;
+    /*width: 70%;*/
     border-radius: 5px;
     font-style: italic;
-    margin:0 auto;
+    margin:0 5px auto;
 
 }
 .form-group p {
