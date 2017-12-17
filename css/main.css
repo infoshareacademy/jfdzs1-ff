@@ -135,6 +135,88 @@ html, body {
 
 /* END OF SLIDER */
 
+/* ABOUT */
+
+#about_us {
+    background-color: #7a93bb;
+  }
+
+.about_us-text {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about_us-text h3 {
+  text-align: center;
+}
+
+.about_us-text h3 strong {
+    color: white;
+}
+
+.team {
+  margin-bottom: 30px;
+  text-align: -webkit-center;
+}
+
+.team-main {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    min-height: 250px;
+    max-width: 400px;
+}
+
+.team-member {
+    min-height: 289px;
+    min-width: 260px;
+    max-width: 260px;
+    background: white;
+    border-radius: 20px;
+}
+
+.team-member-image {
+    margin: 0px;
+    height: 237px;
+}
+
+.team-member-image.first {
+    opacity: 0.8;
+}
+
+.team-member-image img {
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.team-member-info {
+    background: rgba(0,0,0,0.4);
+    position: relative;
+    height: 50px;
+    width: 100%;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.team-member-info h3 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* END OF ABOUT */
 
 /* PRODUCT */
 
@@ -221,22 +303,8 @@ html, body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 992px) and (max-width: 1199px) {
+    .team {
+        width: 750px;
+    }
+  }
