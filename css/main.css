@@ -70,7 +70,14 @@ html, body {
 
 .navbar {
     padding-right: 15px;
+    border-color: #e0e0e0;
+    background-color: #e0e0e0;
 }
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
 .navbar-brand {
     height: auto;
 }
@@ -117,7 +124,7 @@ html, body {
     font-size: 2.2rem;
     color: rgba(255,255,255,1);
     text-decoration: none;
-    background: rgba(48,51,60,0.9);
+    background: #c30000;
     padding: 15px 10px 15px 10px;
     width: 30%;
     margin: 0 auto;
@@ -139,7 +146,7 @@ html, body {
 /* ABOUT */
 
 #about_us {
-    background-color: #7a93bb;
+    background-color: #fafafa;
   }
 
 .about_us-text {
@@ -154,7 +161,7 @@ html, body {
 }
 
 .about_us-text h3 strong {
-    color: white;
+    color: rgba(195, 0, 0, 0.79);
 }
 
 .team {
@@ -200,11 +207,10 @@ html, body {
 }
 
 .team-member-info {
-    background: rgba(0,0,0,0.4);
+    background: #a4a4a4;
     position: relative;
     height: 50px;
     width: 100%;
-
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -222,7 +228,6 @@ html, body {
 /* PRODUCT */
 
 #product {
-    background-color: #EFEFEF;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -246,7 +251,7 @@ html, body {
 /* FEATURES */
 
 #features {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .media {
@@ -264,13 +269,12 @@ html, body {
 /*              SIGN IN FORM               */
 /*******************************************/
 .sign_in_form {
-    margin-top: 15px;
     text-align: center;
-    background: #2d4866;
+    background: #e0e0e0;
     height: 100%;
     width:100%;
-
 }
+
 .form-control {
     /*width: 70%;*/
     border-radius: 5px;
@@ -279,11 +283,22 @@ html, body {
 
 }
 .form-group p {
-    color: white;
+    color: black;
 }
 
 .sign_in_form h1 {
+    color: rgba(195, 0, 0, 0.79);
+}
+.form-group p:first-of-type {
+    padding-top: 20px;
+}
+.form-group p:last-of-type {
+    padding-bottom: 20px;
+}
+.form-group input:last-of-type {
+    background-color: rgba(195, 0, 0, 0.79);
     color: white;
+    border: rgba(195, 0, 0, 0.79);
 }
 
 /* FOR MOBILE */
@@ -309,3 +324,27 @@ html, body {
         width: 750px;
     }
   }
+/* FOR WHOLE PAGE */
+.floor-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.floor-2 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.floor-3 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.floor-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.floor-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.glyphicon {
+    color: #1b1b1b;
+}
