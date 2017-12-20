@@ -70,7 +70,7 @@ html, body {
 
 .navbar {
     padding-right: 15px;
-    border-color: #e0e0e0;
+    border-bottom: solid 3px #ff7539;
     background-color: #e0e0e0;
 }
 
@@ -78,19 +78,35 @@ html, body {
     color: black;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ff7539;
+    background-color: transparent;
+}
+
 .navbar-brand {
     height: auto;
 }
 .logo {
-    height: 90px;
+    height: 70px;
     padding-left: 30px;
 }
 .navbar-toggle {
-    margin-top: 35px;
+    margin-top: 33px;
     margin-right: 10px;
 }
+
+.navbar-default .navbar-toggle{
+    border-color: #494949;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #494949;
+}
+
 .navbar-nav {
-    padding-top: 35px;
+    padding-top: 25px;
     text-transform: uppercase;
     font-size: 1.2em;
     padding-right: 10px;
@@ -138,7 +154,7 @@ html, body {
     font-weight: 700;
 }
 .carousel {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 /* END OF SLIDER */
@@ -348,3 +364,4 @@ html, body {
 .glyphicon {
     color: #1b1b1b;
 }
+
