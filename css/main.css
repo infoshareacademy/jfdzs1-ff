@@ -66,6 +66,10 @@ html, body {
     position: relative; /*required by scrollspy */
 }
 
+#home {
+    padding-bottom: 120px;
+}
+
 /* CSS-NAVIGATION */
 
 .navbar {
@@ -153,6 +157,7 @@ html, body {
     text-decoration: none;
     font-weight: 700;
 }
+
 .carousel {
     margin-top: 100px;
 }
@@ -250,8 +255,8 @@ html, body {
 }
 
 .product-feature {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .product-feature p {
@@ -271,7 +276,7 @@ html, body {
 }
 
 .media {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .media span {
@@ -364,4 +369,3 @@ html, body {
 .glyphicon {
     color: #1b1b1b;
 }
-
