@@ -65,16 +65,10 @@ html, body {
     font-family: 'Roboto Condensed', sans-serif;
     position: relative; /*required by scrollspy */
 }
-
-#home {
-    padding-bottom: 120px;
-}
-
 /* CSS-NAVIGATION */
 
 .navbar {
     padding-right: 15px;
-    border-bottom: solid 3px #ff7539;
     background-color: #e0e0e0;
 }
 
@@ -85,7 +79,7 @@ html, body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #ff7539;
+    color: #d34444;
     background-color: transparent;
 }
 
@@ -130,6 +124,10 @@ html, body {
     padding-bottom: 60px;
 }
 
+.item {
+    background-image: linear-gradient(top ,black 0, red 100%);
+}
+
 .carousel-caption h1 {
     font-size: 2.5rem;
     margin-bottom: 15px;
@@ -160,6 +158,11 @@ html, body {
 
 .carousel {
     margin-top: 100px;
+}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+    color: white;
 }
 
 /* END OF SLIDER */
@@ -255,8 +258,8 @@ html, body {
 }
 
 .product-feature {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .product-feature p {
@@ -366,6 +369,3 @@ html, body {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.glyphicon {
-    color: #1b1b1b;
-}
