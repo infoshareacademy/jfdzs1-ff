@@ -270,6 +270,10 @@ html, body {
     font-size: 70px;
 }
 
+.product-feature .glyphicon {
+    color: #546E7A;
+}
+
 /* END OF PRODUCT */
 
 /* FEATURES */
@@ -295,6 +299,7 @@ html, body {
 .features .glyphicon {
     font-size: 2rem;
     padding: 1rem;
+    color: #546E7A;
 }
 
 .media span {
@@ -384,6 +389,3 @@ html, body {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.glyphicon {
-    color: #546E7A;
-}
