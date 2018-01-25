@@ -270,6 +270,10 @@ html, body {
     font-size: 70px;
 }
 
+.product-feature .glyphicon {
+    color: #546E7A;
+}
+
 /* END OF PRODUCT */
 
 /* FEATURES */
@@ -280,6 +284,22 @@ html, body {
 
 .media {
     margin-bottom: 50px;
+}
+
+.features h4 {
+    text-transform: lowercase;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 0.8rem;
+}
+
+.features {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.features .glyphicon {
+    font-size: 2rem;
+    padding: 1rem;
+    color: #546E7A;
 }
 
 .media span {
